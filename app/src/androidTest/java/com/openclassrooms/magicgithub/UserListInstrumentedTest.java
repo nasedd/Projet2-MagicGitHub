@@ -40,6 +40,7 @@ public class UserListInstrumentedTest {
         // verifie si le nombre réel de user sur l'ecran == currentUsersSize
     }
 
+    //tests des fonctionnalité :
     @Test
     public void checkIfAddingRandomUserIsWorking() {
         onView(withId(R.id.activity_list_user_fab)).perform(click());
